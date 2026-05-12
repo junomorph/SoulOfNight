@@ -1,0 +1,92 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"  n",
+		"ps ",
+		"ep "
+	],
+	"key": {
+		"n": [
+			"minecraft:netherite_ingot"
+		],
+		"s": [
+			"minecraft:echo_shard"
+		],
+		"p": [
+			"minecraft:ender_pearl"
+		],
+		"e": [
+			"minecraft:ender_eye"
+		]
+	},
+	"result": {
+		"count": 1,
+		"id": "minecraft:netherite_sword",
+		"components": {
+			"attribute_modifiers": [
+				{
+					"type": "attack_damage",
+					"amount": 7,
+					"id": "jmp_son:attack_damage",
+					"operation": "add_value",
+					"slot": "mainhand"
+					
+				}
+			],
+			"custom_data":{
+				"jmp_son": true,
+				"jmp_son_itemname": "sword_of_night"
+			},
+			"custom_name": {
+				"text": "Sword of Night",
+				"color": "gold",
+				"italic": false
+			},
+			"consumable": {
+				"consume_seconds": 999999999999999999999999999999999999,
+				"animation": "trident",
+				"sound": "minecraft:intentionally_empty",
+				"has_consume_particles": false
+			},
+			"max_stack_size": 1,
+			"unbreakable": {},
+			"tooltip_display":{
+				"hidden_components": [
+					"unbreakable"
+				]
+			},
+			"lore": [
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "[RClick(keep&release): Stab]"
+                },
+                {
+                  "color": "white",
+				  "italic": false,
+                  "text": "[Sneak+RClick: Teleport]"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "[Sneak+RClick(looking down): Use Portal]"
+                },
+				{
+					"text": ""
+				},
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "暗い闇の力を宿す魔法剣"
+                },
+                {
+                  "color": "white",
+                  "italic": false,
+                  "text": "敵を惑わせ、背後から突き刺してやれ"
+                }
+			],
+			"item_model": "minecraft:soul_of_night/sword_of_night"
+		}
+	},
+	"show_notification": false
+}

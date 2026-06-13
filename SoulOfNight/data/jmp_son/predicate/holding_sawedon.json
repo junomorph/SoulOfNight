@@ -1,0 +1,18 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"type": "minecraft:player",
+		"equipment": {
+			"mainhand": {
+				"components": {},
+				"predicates": {
+					"minecraft:custom_data": {
+						"jmp_son": true,
+						"jmp_son_itemname": "sawed_off_night"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ess",
+		"nb"
+	],
+	"key": {
+		"e": [
+			"minecraft:ender_eye"
+		],
+		"s": [
+			"minecraft:echo_shard"
+		],
+		"n": [
+			"minecraft:netherite_ingot"
+		],
+		"b": [
+			"minecraft:stone_button"
+		]
+	},
+	"result": {
+		"id": "minecraft:crossbow",
+		"components": {
+			"minecraft:unbreakable": {},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:unbreakable"
+				]
+			},
+			"custom_data":{
+				"jmp_son": true,
+				"jmp_son_itemname": "sawed_off_night",
+				"ready": "init"
+			},
+			"custom_name": {
+				"text": "Sawed off Night",
+				"color": "gold",
+				"italic": false
+			},
+			"item_model": "minecraft:soul_of_night/sawed_off_night"
+		},
+		"count": 1
+	}
+}

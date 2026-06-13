@@ -1,0 +1,6 @@
+{
+    "values" : [
+        "jmp_son:tick",
+        "jmp_son:score_resets"
+    ]
+}

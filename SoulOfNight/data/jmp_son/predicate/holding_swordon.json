@@ -1,0 +1,16 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"components": {
+					"minecraft:custom_data": {
+						"jmp_son_itemname": "sword_of_night",
+						"jmp_son": true
+					}
+				}
+			}
+		}
+	}
+}

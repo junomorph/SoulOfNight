@@ -7,7 +7,7 @@ playsound minecraft:entity.warden.death player @s ~ ~ ~ 1 1
 #ポータル設置
 scoreboard players set @s jmp_son.ct.tp 40
 tag @s add jmp_son.portalplaced
-summon armor_stand ~ ~ ~ {Marker:true,Invisible:true,Tags:[jmp_son.portal,jmp_son.init]}
+summon marker ~ ~ ~ {Tags:[jmp_son.portal,jmp_son.init]}
 
 #設置者とポータルをリンク
 scoreboard players add #idoperator jmp_son.linkid 1

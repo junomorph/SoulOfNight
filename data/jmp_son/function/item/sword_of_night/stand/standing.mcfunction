@@ -1,4 +1,4 @@
-#function jmp_son:tick  line4
+#function jmp_son:tick  L4
 
 #振り上げられるように
 execute if entity @s[predicate=jmp_son:holding_swordon] run item modify entity @s weapon.mainhand jmp_son:consumable_trident

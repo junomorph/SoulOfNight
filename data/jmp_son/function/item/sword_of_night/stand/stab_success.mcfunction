@@ -1,7 +1,4 @@
-#function jmp_son:item/sword_of_night/stand/stab  line 18
+#function jmp_son:item/sword_of_night/stand/stab    L17
 
-#スタブ・音
-damage @s 20 generic by @p[predicate=jmp_son:holding_swordon]
-playsound minecraft:entity.wither.break_block neutral @a ~ ~ ~ 0.3 1
-playsound minecraft:block.sculk_shrieker.break player @a ~ ~ ~ 1 0.7
-playsound minecraft:entity.player.attack.crit player @a ~ ~ ~ 1 0
+execute if entity @s[distance=..3,tag=jmp_son.stabbing] positioned ~-0.25 ~-0.25 ~-0.25 as @n[dx=0.5,type=#jmp_son:mob_amsta_player,type=!armor_stand,tag=!jmp_son.stabbing] run return run function jmp_son:item/sword_of_night/stand/stabbed
+execute if entity @s[distance=..3,tag=jmp_son.stabbing] positioned ~-0.25 ~-0.25 ~-0.25 unless entity @n[dx=0.5,type=#jmp_son:mob_amsta_player,type=!armor_stand,tag=!jmp_son.stabbing] positioned ~0.25 ~0.25 ~0.25 if block ~ ~ ~ #jmp_son:no_collision positioned ^ ^ ^0.25 run function jmp_son:item/sword_of_night/stand/stab_success

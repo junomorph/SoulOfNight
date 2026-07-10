@@ -1,6 +1,3 @@
 #function jmp_son:tick  line12
-scoreboard players add @s jmp_son.stun 1
-data merge entity @s[scores={jmp_son.stun=30},nbt={NoAI:true},tag=!jmp_son.have_NoAI] {NoAI:false}
-tag @s[scores={jmp_son.stun=30}] remove jmp_son.debuff
-tag @s[scores={jmp_son.stun=30}] remove jmp_son.have_NoAI
-scoreboard players reset @s[scores={jmp_son.stun=30}] jmp_son.stun
+scoreboard players remove @s jmp_son.stun 1
+execute if score @s jmp_son.stun matches ..0 run function jmp_son:item/sword_of_night/clear_debuff

@@ -9,7 +9,7 @@ execute at @s positioned ~ ~0.5 ~ rotated ~ 0 run particle explosion ^ ^ ^0.5 0.
 effect give @s slow_falling 1 0 true
 
 #テレポート相手にNoAI付与
-execute positioned ^ ^ ^1 as @n[dx=0,type=!#jmp_son:not_mob] run function jmp_son:item/sword_of_night/sneak/debuff
+execute as @n[dx=0,type=!#jmp_son:not_mob] run function jmp_son:item/sword_of_night/sneak/debuff
 
 #クールタイム設定
 scoreboard players set @s jmp_son.ct.tp 40

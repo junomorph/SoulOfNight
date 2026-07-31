@@ -19,12 +19,23 @@
 		]
 	},
 	"result": {
-		"id": "minecraft:crossbow",
+		"id": "minecraft:carrot_on_a_stick",
 		"components": {
+			"attribute_modifiers": [
+				{
+					"type": "attack_damage",
+					"amount": 3,
+					"id": "jmp_son:attack_damage",
+					"operation": "add_value",
+					"slot": "mainhand"
+					
+				}
+			],
 			"minecraft:unbreakable": {},
 			"minecraft:tooltip_display": {
 				"hidden_components": [
-					"minecraft:unbreakable"
+					"minecraft:unbreakable",
+					"attribute_modifiers"
 				]
 			},
 			"custom_data":{
@@ -37,6 +48,18 @@
 				"color": "gold",
 				"italic": false
 			},
+			"lore":[
+				{
+					"color": "white",
+					"italic": false,
+					"text": "闇の力を弾薬と成した散弾銃"
+				},
+				{
+					"color": "white",
+					"italic": false,
+					"text": "腹の向こうの暗闇が見えるようにしてやれ"
+				}
+			],
 			"item_model": "minecraft:soul_of_night/sawed_off_night"
 		},
 		"count": 1

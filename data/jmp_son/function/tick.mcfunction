@@ -4,6 +4,7 @@
 execute as @a[predicate=jmp_son:holding_swordon] at @s run function jmp_son:item/sword_of_night/tick_holding_swordon
 #Sawed of Night
 execute as @a[predicate=jmp_son:holding_sawedon] at @s run function jmp_son:item/sawed_off_night/tick_holding_sawedon
+
 #ポータルの表示
 execute as @e[type=minecraft:marker,tag=jmp_son.portal] at @s run function jmp_son:item/sword_of_night/portaldisplayer
 

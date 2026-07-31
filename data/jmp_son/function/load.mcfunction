@@ -25,4 +25,4 @@ scoreboard players set #360 jmp_son.rot_num 360
 
 #設定的な何か
 scoreboard objectives add jmp_son.config.pellets dummy
-scoreboard players set #config jmp_son.config.pellets 20
+scoreboard players set #config jmp_son.config.pellets 10

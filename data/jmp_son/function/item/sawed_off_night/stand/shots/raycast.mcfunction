@@ -1,3 +1,3 @@
 particle minecraft:dust_color_transition{from_color:[0.392,0.294,0.588],scale:1,to_color:[0.600,1.000,1.000]} ~ ~ ~ 0 0 0 0 2 normal @a
-execute if entity @s[distance=3..80] positioned ~-0.125 ~-0.125 ~-0.125 at @e[dx=0.125,dy=0.125,dz=0.125] if data entity @n Brain run damage @n 1 jmp_son:sawedon_shot by @s
-execute if entity @s[distance=..80] positioned ~-0.125 ~-0.125 ~-0.125 at @e[dx=0.125,dy=0.125,dz=0.125] positioned ~0.125 ~0.125 ~0.125 if block ~ ~ ~ #jmp_son:no_collision positioned ^ ^ ^0.5 run function jmp_son:item/sawed_off_night/stand/shots/raycast
+execute if entity @s[distance=..30] positioned ~-0.125 ~-0.125 ~-0.125 if entity @n[dx=0,type=!#testo:testag] positioned ~-0.875 ~-0.875 ~-0.875 at @n[dx=0,type=!#testo:testag] run return run damage @n 2 jmp_son:sawedon_shot by @s
+execute if entity @s[distance=..30] if block ~ ~ ~ #testo:testtag positioned ^ ^ ^0.125 run function jmp_son:item/sawed_off_night/stand/shots/raycast

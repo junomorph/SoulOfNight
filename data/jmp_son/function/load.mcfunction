@@ -5,7 +5,6 @@ scoreboard objectives add jmp_son.rclick_coas minecraft.used:carrot_on_a_stick
 scoreboard objectives add jmp_son.sawedon_ammo dummy
 scoreboard objectives add jmp_son.raise dummy
 scoreboard objectives add jmp_son.raisetime dummy
-scoreboard objectives add jmp_son.ct.sawedon_shot dummy
 scoreboard objectives add jmp_son.ct.tp dummy
 scoreboard objectives add jmp_son.ct.stab dummy
 scoreboard objectives add jmp_son.sound dummy

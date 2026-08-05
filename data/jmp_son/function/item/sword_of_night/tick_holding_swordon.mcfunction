@@ -1,6 +1,6 @@
 #function jmp_son:tick  L4
 
 #非スニーク時
-execute if entity @s[predicate=jmp_son:holding_swordon,predicate=!jmp_son:sneaking] run return run function jmp_son:item/sword_of_night/stand/standing
+execute if entity @s[predicate=!jmp_son:sneaking] run return run function jmp_son:item/sword_of_night/stand/standing
 #スニーク時
-execute if entity @s[predicate=jmp_son:holding_swordon,predicate=jmp_son:sneaking] run function jmp_son:item/sword_of_night/sneak/sneaking
+execute if entity @s[predicate=jmp_son:sneaking] run function jmp_son:item/sword_of_night/sneak/sneaking

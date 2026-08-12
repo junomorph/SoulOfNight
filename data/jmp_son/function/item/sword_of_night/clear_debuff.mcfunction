@@ -1,4 +1,4 @@
-#function jmp_son:item/sword_of_night/stun  L2
+#function jmp_son:item/sword_of_night/stun
 
 execute if entity @s[tag=!jmp_son.have_NoAI] run data modify entity @s NoAI set value false
 tag @s[tag=jmp_son.have_NoAI] remove jmp_son.have_NoAI

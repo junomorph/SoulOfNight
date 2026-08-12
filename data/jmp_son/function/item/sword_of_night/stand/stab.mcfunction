@@ -1,4 +1,4 @@
-#function jmp_son:item/sword_of_night/stand/standing    L7
+#function jmp_son:item/sword_of_night/stand/standing
 
 tag @s add jmp_son.stabbing
 ##自身とターゲットとの水平角を計算する

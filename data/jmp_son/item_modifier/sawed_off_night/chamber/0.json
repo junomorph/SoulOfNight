@@ -1,0 +1,9 @@
+[
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": {
+			"jmp_son_ammo": 0
+		},
+		"conditions": []
+	}
+]

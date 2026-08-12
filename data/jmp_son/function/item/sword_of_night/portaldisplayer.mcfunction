@@ -1,4 +1,4 @@
-#function jmp_son:tick  line9
+#function jmp_son:tick
 
 #近づかないと見えないってよ
 particle minecraft:glow ~ ~0.5 ~ 0.1 0.1 0.1 0 1 force @a[distance=..5]

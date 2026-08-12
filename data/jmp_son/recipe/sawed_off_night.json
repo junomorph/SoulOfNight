@@ -41,7 +41,8 @@
 			"custom_data":{
 				"jmp_son": true,
 				"jmp_son_itemname": "sawed_off_night",
-				"ready": "init"
+				"jmp_son_ammo": 2,
+				"jmp_son_reloading": false
 			},
 			"custom_name": {
 				"text": "Sawed off Night",
@@ -60,7 +61,10 @@
 					"text": "腹の向こうの暗闇が見えるようにしてやれ"
 				}
 			],
-			"item_model": "minecraft:soul_of_night/sawed_off_night"
+			"item_model": "minecraft:soul_of_night/sawed_off_night",
+			"custom_model_data": {
+				"flags": [false]
+			}
 		},
 		"count": 1
 	}

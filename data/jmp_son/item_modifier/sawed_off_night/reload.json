@@ -1,0 +1,19 @@
+[
+	{
+		"function": "minecraft:set_custom_model_data",
+		"flags": {
+			"values": [
+				true
+			],
+			"mode": "replace_all"
+		},
+		"conditions": []
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": {
+			"jmp_son_reloading": true
+		},
+		"conditions": []
+	}
+]

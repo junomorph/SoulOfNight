@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"entity_type": "minecraft:player",
+		"equipment": {
+			"mainhand": {
+				"components": {},
+				"predicates": {
+					"minecraft:custom_data": {
+						"jmp_son_ammo": 2
+					}
+				}
+			}
+		}
+	}
+}

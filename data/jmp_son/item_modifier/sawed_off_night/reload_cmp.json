@@ -12,8 +12,8 @@
 	{
 		"function": "minecraft:set_custom_data",
 		"tag": {
-			"jmp_son_reloading": false,
-			"jmp_son_ammo": 2
+			"jmp_son_ammo": 2,
+			"jmp_son_reloading": false
 		},
 		"conditions": []
 	}

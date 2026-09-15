@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"minecraft:equipment": {
+						"mainhand": {
+							"components": {
+								"minecraft:custom_data": {
+									"jmp_son": true,
+									"jmp_son_itemname": "sword_of_night"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"a"
+		]
+	],
+	"rewards": {
+		"function": "jmp_son:item/killed_with_son"
+	}
+}

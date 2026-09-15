@@ -11,6 +11,6 @@ summon marker ~ ~ ~ {Tags:[jmp_son.portal,jmp_son.init]}
 
 #設置者とポータルをリンク
 scoreboard players add #idoperator jmp_son.linkid 1
-scoreboard players operation @n[tag=jmp_son.portal,tag=jmp_son.init,distance=..4] jmp_son.linkid = .idoperator jmp_son.linkid
-scoreboard players operation @s jmp_son.linkid = .idoperator jmp_son.linkid
+scoreboard players operation @n[tag=jmp_son.portal,tag=jmp_son.init,distance=..4] jmp_son.linkid = #idoperator jmp_son.linkid
+scoreboard players operation @s jmp_son.linkid = #idoperator jmp_son.linkid
 execute at @s as @n[tag=jmp_son.portal,tag=jmp_son.init,distance=..4] if score @s jmp_son.linkid = @p jmp_son.linkid run tag @s remove jmp_son.init

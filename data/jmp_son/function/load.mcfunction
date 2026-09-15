@@ -2,7 +2,6 @@ say loaded [Soul of Night]
 
 #プレイヤーやエンティティの状態
 scoreboard objectives add jmp_son.rclick_coas minecraft.used:carrot_on_a_stick
-scoreboard objectives add jmp_son.sawedon_ammo dummy
 scoreboard objectives add jmp_son.raise dummy
 scoreboard objectives add jmp_son.raisetime dummy
 scoreboard objectives add jmp_son.ct.tp dummy
@@ -13,6 +12,8 @@ scoreboard objectives add jmp_son.stun dummy
 scoreboard objectives add jmp_son.use_sneaking dummy
 scoreboard objectives add jmp_son.summoning_pellets dummy
 scoreboard objectives add jmp_son.reload dummy
+scoreboard objectives add jmp_son.reload.last_selected_slot dummy
+scoreboard objectives add jmp_son.reload.selected_slot dummy
 
 #データ取得用の変数
 scoreboard objectives add jmp_son.rot dummy

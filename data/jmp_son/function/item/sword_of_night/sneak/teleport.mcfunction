@@ -12,4 +12,5 @@ effect give @s slow_falling 1 0 true
 execute as @n[dx=0,type=!#jmp_son:not_mob] run function jmp_son:item/sword_of_night/sneak/debuff
 
 #クールタイム設定
+tag @s remove jmp_son.tp_ready
 scoreboard players set @s jmp_son.ct.tp 40

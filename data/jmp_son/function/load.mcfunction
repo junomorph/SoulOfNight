@@ -12,6 +12,11 @@ scoreboard objectives add jmp_son.stun dummy
 scoreboard objectives add jmp_son.use_sneaking dummy
 scoreboard objectives add jmp_son.summoning_pellets dummy
 scoreboard objectives add jmp_son.reload dummy
+scoreboard objectives add jmp_son.sneak_time minecraft.custom:sneak_time
+scoreboard objectives add jmp_son.ct.para dummy
+scoreboard objectives add jmp_son.para_trans dummy
+scoreboard objectives add jmp_son.para_par_rotate dummy
+scoreboard objectives add jmp_son.para_par_radius dummy
 scoreboard objectives add jmp_son.reload.last_selected_slot dummy
 scoreboard objectives add jmp_son.reload.selected_slot dummy
 

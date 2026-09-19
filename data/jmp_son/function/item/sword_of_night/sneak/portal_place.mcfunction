@@ -5,7 +5,6 @@ playsound entity.warden.attack_impact player @s ~ ~ ~ 1 1
 playsound minecraft:entity.warden.death player @s ~ ~ ~ 1 1
 
 #ポータル設置
-scoreboard players set @s jmp_son.ct.tp 40
 tag @s add jmp_son.portalplaced
 summon marker ~ ~ ~ {Tags:[jmp_son.portal,jmp_son.init]}
 

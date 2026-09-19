@@ -1,5 +1,5 @@
 #function jmp_son:item/sword_of_night/sneak/lookingdown  line3
-scoreboard players set @s jmp_son.ct.tp 40
+
 tag @s remove jmp_son.portalplaced
 
 #debug

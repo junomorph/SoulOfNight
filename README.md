@@ -3,7 +3,8 @@
 何かしら「事情」が発生したら公開を止めます。  
 
 ## 追加されるアイテム
-### Sword of Night
+### Sword of Night  
+![Sword of Night recipe](./gallery/swordon_recipe.png)
 #### スタブ
 立って右クリックを長押しすると、剣を振り上げる。音が鳴ったら振り上げきった合図。  
 振り上げきってからモブの背後で右クリックを放すとバックスタブをする。  
@@ -18,3 +19,4 @@
 その場にポータルを設置し、設置状態でもう一度同じ動作をするとポータルにテレポートする。
 
 ### Sawed off Night
+![Sawed off Night recipe](./gallery/sawedon_recipe.png)

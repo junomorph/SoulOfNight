@@ -1,6 +1,7 @@
 # Soul Of Night
 ちゅずめ氏のデータパック作品 [**Sword of Night**](https://www.youtube.com/watch?v=i-ItAsrIK7U&t=1s) を(勝手に)改造したもの。  
 何かしら「事情」が発生したら公開を止めます。  
+本作で遊ぶ際は、[私のデータパック用のリソースパック](https://github.com/junomorph/Junomorph-s_Resources)を有効化してお楽しみください。
 
 ## 追加されるアイテム
 ### Sword of Night  
